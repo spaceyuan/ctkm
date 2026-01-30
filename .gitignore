@@ -1,0 +1,69 @@
+# 输出目录
+output/
+*.tmp
+*.temp
+
+# IDE和编辑器配置
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime*
+
+# 操作系统生成的文件
+.DS_Store
+Thumbs.db
+
+# 日志文件
+*.log
+logs/
+
+# 依赖目录
+node_modules/
+__pycache__/
+*.pyc
+
+# 环境变量文件
+.env
+.env.local
+.env.*.local
+
+# 构建产物
+build/
+dist/
+*.exe
+*.dll
+
+# 临时文件
+temp/
+tmp/
+
+# 系统文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 压缩包
+*.zip
+*.tar.gz
+*.rar
+
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+
+# ========================================
+# 项目文档目录特定配置
+# ========================================
+# 特别注意以下目录：
+output/     # 输出文件目录
+.vscode/    # VS Code配置目录
